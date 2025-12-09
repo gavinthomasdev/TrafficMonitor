@@ -1389,7 +1389,7 @@ void CTrafficMonitorDlg::DoMonitorAcquisition()
             }
             __except (EXCEPTION_EXECUTE_HANDLER)
             {
-                AfxMessageBox(error_info, MB_ICONERROR | MB_OK);
+               // AfxMessageBox(error_info, MB_ICONERROR | MB_OK);
             }
         };
 
